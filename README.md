@@ -33,9 +33,8 @@ The Twitter dataset used in this project is the <a href="https://botometer.osome
 
 - <p align="justify">Text Preprocessing: I combined user tweets with their profile information, unlike most projects which only focus on a single aspect. Accounts with no tweet were designated "Nil". I mean this would make sense rather than drop them. After preprocessing the dataset, the proportion of genuine accounts to automated accounts is given below<br></p>  <img src="images/twitter-proportion.jpg">
 
-- <p align="justify">Feature Engineering: Lots of credit to <a href="https://github.com/wholenote/twitter-spambot-detection/blob/main/botdetection.ipynb">Wholenote</a>. I used some sections of his code to extract useful features from the twitter dataset. These features are given below<br></p> <img src="images/twitter-features.jpg">
+- <p align="justify">Feature Engineering: Lots of credit to <a href="https://github.com/wholenote/twitter-spambot-detection/blob/main/botdetection.ipynb">Wholenote</a> , <a href="https://github.com/divyanshu-vashishth/major-project/blob/main/twitter-code.ipynb">Oyebamiji</a>. I used some sections of his code to extract useful features from the twitter dataset. These features are given below<br></p> <img src="images/twitter-features.jpg">
 
-Discussions regarding model building, evaluation, and interpretation can be found in the subsequent section.
 
 <a id="model"></a>
 <h2>Modeling and Interpretation</h2>
@@ -61,7 +60,7 @@ The detection of social bots is crucial for social media platforms to maintain t
 
 - <p align="justify">Enhance Security and Fraud Prevention: Of course the security aspect. Identifying bot accounts helps platforms better detect and prevent various forms of fraud, including account hijacking, phishing attempts, and coordinated inauthentic behavior.</p>
 
-Note: This readme focused majorly on Twitter modeling. The Instagram dataset is quite similar although there are no texts and it is quite cleaned up already. The same feature engineering applies. You can find all the information you need in the <a href="https://github.com/divyanshu-vashishth/major-project/instagram-code.ipynb">notebook</a>.</p>
+Note: This readme focused majorly on Twitter modeling. The Instagram dataset is quite similar although there are no texts and it is quite cleaned up already. The same feature engineering applies. You can find all the information you need in the <a href="https://github.com/divyanshu-vashishth/major-project/blob/main/instagram-code.ipynb">notebook</a>.</p>
 
 <a id="citations"></a>
 <h2>Citations</h2>
